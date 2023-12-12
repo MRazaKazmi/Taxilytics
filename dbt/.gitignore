@@ -1,0 +1,8 @@
+
+target/
+dbt_packages/
+logs/
+venv/
+.user.yml
+get-pip.py
+profiles.yml
