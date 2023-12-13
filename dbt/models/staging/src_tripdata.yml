@@ -5,4 +5,4 @@ sources:
     database: taxilytics
     schema: dbt_stg
     tables:
-      - name: green_tripdata
+      - name: src_green_tripdata
