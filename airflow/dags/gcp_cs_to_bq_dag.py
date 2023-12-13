@@ -10,8 +10,8 @@ from airflow.providers.google.cloud.operators.bigquery import BigQueryCreateExte
 GCP_PROJECT_ID = os.environ.get('GCP_PROJECT_ID', 'taxilytics')
 GCP_GCS_BUCKET = os.environ.get('GCP_GCS_BUCKET', 'taxilytics_data_lake')
 PATH_TO_AIRFLOW_HOME = os.environ.get('AIRFLOW_HOME', '/opt/airflow')
-BIGQUERY_DATASET = os.environ.get('BIGQUERY_DATASET', 'stg')
-BIG_QUERY_TABLE_NAME = 'green_taxi_trips'
+BIGQUERY_DATASET = os.environ.get('BIGQUERY_DATASET', 'dbt_stg')
+BIG_QUERY_TABLE_NAME = 'green_tripdata'
 
 
 default_args = {

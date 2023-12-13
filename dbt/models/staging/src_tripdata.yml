@@ -3,6 +3,6 @@ version: 2
 sources:
   - name: src_tripdata
     database: taxilytics
-    schema: stg
+    schema: dbt_stg
     tables:
-      - name: green_taxi_trips
+      - name: green_tripdata
