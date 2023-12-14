@@ -12,12 +12,12 @@ variable "region" {
 
 variable "stg_bq_dataset" {
     description = "BigQuery dataset for raw data"
-    default     = "stg"
+    default     = "dbt_stg"
     type        = string
 }
 
 variable "prod_bq_dataset" {
     description = "BigQuery dataset for transformed data"
-    default     = "prod"
+    default     = "dbt_prod"
     type        = string
 }
