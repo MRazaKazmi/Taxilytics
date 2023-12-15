@@ -18,3 +18,5 @@ The taxi trips table is about the Green taxi trips made in NYC and is enriched w
 
 
 ## DAG
+
+<img width="720" alt="Screenshot 2023-12-14 at 11 14 02 PM" src="https://github.com/MRazaKazmi/Taxilytics/assets/23143869/4136d048-02a5-402b-9ee3-b26be7fe201d">
