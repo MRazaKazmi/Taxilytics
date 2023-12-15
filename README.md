@@ -14,7 +14,7 @@ The taxi trips table is about the Green taxi trips made in NYC and is enriched w
 
 ## Architecture
 
-![Blank diagram](https://github.com/MRazaKazmi/Taxilytics/assets/23143869/f3607d59-fd44-4407-8858-ed9ab4429ba8)
+![Blank diagram (1)](https://github.com/MRazaKazmi/Taxilytics/assets/23143869/41f7e14c-495b-4af7-a57d-0950b909f36d)
 
 
 ## DAG
