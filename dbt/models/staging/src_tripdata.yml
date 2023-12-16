@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: src_tripdata
+  - name: src_green_trip
     database: taxilytics
     schema: dbt_stg
     tables:

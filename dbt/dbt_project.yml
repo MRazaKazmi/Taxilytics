@@ -40,7 +40,7 @@ seeds:
 models:
   dbt_taxilytics:
     staging:
-      +materialized: view
+      +materialized: table
       +schema: stg
     warehouse:
       +materialized: table

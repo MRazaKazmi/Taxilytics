@@ -21,8 +21,15 @@ models:
         tests:
         - not_null
         - unique
+
+  - name: dim_payment_type
+    columns:
+      - name: payment_type
+        tests:
+        - not_null
+        - unique
   
-  - name: fact_trip
+  - name: fact_green_trip
     columns:
       - name: tripid
         tests:

@@ -3,4 +3,4 @@
 select
     trip_type,
     trip_type_desc
-from {{ ref('stg_trip_type') }}
+from {{ ref('seed_trip_type') }}
