@@ -6,13 +6,9 @@ with green_data as (
     from {{ ref('stg_green_tripdata') }}
 ), 
 
-dim_zone as (
-    select * from {{ ref('dim_zone') }}
+dim_taxi_zone as (
+    select * from {{ ref('dim_taxi_zone') }}
     where borough != 'Unknown'
-),
-
-dim_date as (
-    select * from {{ ref('dim_date') }}
 )
 
 select 
@@ -27,9 +23,7 @@ select
     dropoff_zone.borough as dropoff_borough, 
     dropoff_zone.zone as dropoff_zone,  
     green_data.pickup_datetime, 
-    pickup_date.month_of_year as pickup_moy,
     green_data.dropoff_datetime, 
-    dropoff_date.month_of_year as dropoff_moy,
     green_data.store_and_fwd_flag, 
     green_data.passenger_count, 
     green_data.trip_distance, 
@@ -45,11 +39,7 @@ select
     green_data.payment_type,  
     green_data.congestion_surcharge
 from green_data
-inner join dim_zone as pickup_zone
+left join dim_taxi_zone as pickup_zone
 on green_data.pickup_locationid = pickup_zone.locationid
-inner join dim_zone as dropoff_zone
+left join dim_taxi_zone as dropoff_zone
 on green_data.dropoff_locationid = dropoff_zone.locationid
-inner join dim_date as pickup_date
-on EXTRACT(DATE FROM green_data.pickup_datetime) = pickup_date.date_day
-inner join dim_date as dropoff_date
-on EXTRACT(DATE FROM green_data.dropoff_datetime) = dropoff_date.date_day

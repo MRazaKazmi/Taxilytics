@@ -1,9 +1,23 @@
 version: 2
 
 models:
-  - name: dim_zone
+  - name: dim_taxi_zone
     columns:
       - name: locationid
+        tests:
+        - not_null
+        - unique
+
+  - name: dim_trip_type
+    columns:
+      - name: trip_type
+        tests:
+        - not_null
+        - unique
+
+  - name: dim_rate_code
+    columns:
+      - name: rate_code_id
         tests:
         - not_null
         - unique

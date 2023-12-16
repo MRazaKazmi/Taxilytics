@@ -44,4 +44,4 @@ models:
       +schema: stg
     warehouse:
       +materialized: table
-      +schema: prod
+      +schema: dwh
