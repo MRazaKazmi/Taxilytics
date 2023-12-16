@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: dim_zone
+    columns:
+      - name: locationid
+        tests:
+        - not_null
+        - unique
+  
+  - name: fact_trip
+    columns:
+      - name: tripid
+        tests:
+        - not_null
+        - unique
