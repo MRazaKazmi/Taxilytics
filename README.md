@@ -14,10 +14,42 @@ The taxi trips table is about the Green taxi trips made in NYC and is enriched w
 
 ![Blank diagram (2)](https://github.com/MRazaKazmi/Taxilytics/assets/23143869/16d02999-384e-4bf7-9afb-d86e511b814a)
 
+## Setup
 
-## DAG
+### Pre-requisites
+- Terraform
+- Docker
 
-<img width="720" alt="Screenshot 2023-12-14 at 11 14 02 PM" src="https://github.com/MRazaKazmi/Taxilytics/assets/23143869/4136d048-02a5-402b-9ee3-b26be7fe201d">
+### Terraform
+
+The following steps will help you spin up the required cloud infrastructure:
+
+1. Move into the Terraform directory
+
+`cd terraform`
+
+2. Initiate Terraform and download the required dependencies
+
+`terraform init`
+
+3. View the Terraform plan
+
+`terraform plan`
+
+4. Apply the cloud infrastructure
+
+`terraform apply`
+
+### Airflow
+
+1. Move into Airflow directory
+   
+`cd airflow`
+   
+2. Run the Docker container
+   
+`docker compose up`
+
 
 ## Future Work
 
