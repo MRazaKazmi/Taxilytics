@@ -21,5 +21,6 @@ The taxi trips table is about the Green taxi trips made in NYC and is enriched w
 
 ## Future Work
 
--- Inlclude CI/CD pipelines
--- Include more data quality checks
+- Inlclude CI/CD pipelines
+- Include more data quality checks
+- Add data visualizations to present insights from the data
