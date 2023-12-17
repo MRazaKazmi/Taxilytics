@@ -10,8 +10,6 @@ The data was downloaded from https://www.nyc.gov/site/tlc/about/tlc-trip-record-
 
 The taxi trips table is about the Green taxi trips made in NYC and is enriched with generated data about taxi zones and dates. 
 
-## Requirements
-
 ## Architecture
 
 ![Blank diagram (2)](https://github.com/MRazaKazmi/Taxilytics/assets/23143869/16d02999-384e-4bf7-9afb-d86e511b814a)
