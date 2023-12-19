@@ -8,7 +8,7 @@ The goal of this project is to automate the flow of data from a data lake into a
 
 The data was downloaded from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page in parquet format and loaded into Google Cloud Storage for access by the data pipeline. 
 
-The taxi trips table is about the Green taxi trips made in NYC and is enriched with generated data about taxi zones, payment types, rate codes and trip types from the provided data dictionary and dates using dbt. 
+The taxi trips table is about the Green taxi trips made in NYC and is enriched with generated data about taxi zones, payment types, rate codes and trip types from the provided data dictionary and dates. 
 
 ## Architecture
 
