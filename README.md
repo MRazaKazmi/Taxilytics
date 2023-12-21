@@ -36,7 +36,7 @@ The following steps will help you spin up the required cloud infrastructure:
 
 `terraform plan`
 
-4. Apply the cloud infrastructure
+4. Apply the Terraform plan
 
 `terraform apply`
 
