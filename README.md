@@ -2,7 +2,7 @@
 
 ## Summary
 
-The goal of this project is to automate the flow of data from a data lake into a data warehouse to power a dashboard which enables users to extract insights on the Green taxi trips made in NYC in the 2022 year.
+The goal of this project is to automate the flow of data from a data lake into a data warehouse to power a dashboard which enables users to extract insights on the Green taxi trips made in NYC in 2022.
 
 ## Dataset
 
