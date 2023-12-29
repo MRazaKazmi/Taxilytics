@@ -14,6 +14,11 @@ The taxi trips table is about the Green taxi trips made in NYC and is enriched w
 
 ![Blank diagram (2)](https://github.com/MRazaKazmi/Taxilytics/assets/23143869/16d02999-384e-4bf7-9afb-d86e511b814a)
 
+## Entity Relationship Diagram
+
+![Blank diagram (4)](https://github.com/MRazaKazmi/Taxilytics/assets/23143869/f85c0580-5964-4d2d-82e0-f2c2697e030a)
+
+
 ## Setup
 
 ### Pre-requisites
